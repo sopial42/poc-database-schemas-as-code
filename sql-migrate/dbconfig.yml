@@ -1,0 +1,4 @@
+postgres:
+    dialect: postgres
+    datasource: host=localhost dbname=poc sslmode=disable user=poc password=poc
+    dir: .

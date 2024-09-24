@@ -1,0 +1,1 @@
+ALTER TABLE candles ADD COLUMN metadata JSONB;

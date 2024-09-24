@@ -1,0 +1,10 @@
+services:
+  db:
+    image: postgres:14
+    container_name: db
+    ports:
+    - 5432:5432
+    environment:
+    - POSTGRES_USER=poc
+    - POSTGRES_PASSWORD=poc
+    - POSTGRES_DB=poc
